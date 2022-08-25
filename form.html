@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form in HTMl</title>
+  </head>
+  <body>
+    <h1>Jamal er ma Special TSC pitha expo</h1>
+    <form action="">
+      <p>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+        />
+      </p>
+
+      <p>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+        />
+      </p>
+
+      <fieldset>
+        <legend>Select your pitha</legend>
+        <p>
+          <input type="radio" name="pitha" id="chitoy" />
+          <label for="chitoy">Chitoy</label>
+        </p>
+        <p>
+          <input type="radio" name="pitha" id="vapa" />
+          <label for="vapa">vapa</label>
+        </p>
+        <p>
+          <input type="radio" name="pitha" id="tel-er-pitha" />
+          <label for="tel-er-pitha">tel-er-pitha</label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Select your vorta</legend>
+        <p>
+          <label for="sorisa"
+            ><input type="checkbox" name="vorta" id="sorisa" />Sorisa</label
+          >
+        </p>
+        <p>
+          <label for="shutki"
+            ><input type="checkbox" name="vorta" id="shutki" />Shutki</label
+          >
+        </p>
+        <p>
+          <label for="begun"
+            ><input type="checkbox" name="vorta" id="begun" />Begun</label
+          >
+        </p>
+      </fieldset>
+      <p>Type Here:</p>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
